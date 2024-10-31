@@ -1,0 +1,37 @@
+#loginform {
+    position: relative;
+}
+
+.qrcode-img img{
+    padding:0 30px; 
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.qrcode-img {
+    margin-bottom: 20px;
+}
+
+#loginform p.switchBtn {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #dfdfdf;
+}
+
+#loginform p:nth-child(1),
+#loginform p:nth-child(2)
+{
+    display: none;
+}
+
+#loginform p.qrcode-item {
+    display: block;
+}
